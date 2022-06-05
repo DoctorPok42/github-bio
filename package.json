@@ -1,0 +1,24 @@
+{
+  "name": "github-bio",
+  "version": "1.0.0",
+  "description": "litle project to change your github bio every hours",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DoctorPok42/github-bio.git"
+  },
+  "author": "DoctorPok42",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DoctorPok42/github-bio/issues"
+  },
+  "homepage": "https://github.com/DoctorPok42/github-bio#readme",
+  "dependencies": {
+    "node-cron": "^3.0.0",
+    "node-fetch": "^2.6.1",
+    "weather-js": "^2.0.0"
+  }
+}
