@@ -3,7 +3,7 @@ const fetch = require("node-fetch");
 const weather = require("weather-js");
 const config = require("./config.json");
 
-async function update_github_bio(message) {
+async function updateGithubBio(message) {
   const rep = await fetch(`https://api.github.com/user`, {
     method: "PATCH",
     body: JSON.stringify({
@@ -20,11 +20,6 @@ async function update_github_bio(message) {
   } else {
     console.log("Erreur " + data);
   }
-}
-
-function good_locate(args) {
-  const good = args.slice(0, args.indexOf(","));
-  return good;
 }
 
 cron.schedule("* */1 * * *", () => {
@@ -50,15 +45,13 @@ cron.schedule("* */1 * * *", () => {
           var date =
             day + "/" + month + "/" + year + " " + hours + "h" + minutes;
 
-          const message = `Météo actuelle à ${good_locate(
-            current.observationpoint
-          )} : ${current.skytext} avec une température de ${
+          const message = `Météo actuelle à ${current.observationpoint.slice(0, args.indexOf(","))} : ${current.skytext} avec une température de ${
             current.temperature
           }${config.degreeType} et un ressenti de ${current.feelslike}${
             config.degreeType
           } | Dernnière update ${date}`;
 
-          update_github_bio(message);
+          updateGithubBio(message);
         }
       }
     );
