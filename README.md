@@ -20,6 +20,6 @@ Afin d'installer tous les packtages nécessaire.
 
 Si tout est bon la console vous répondra quelque chose comme
 ```Css
-Modification de la bio github pour DoctorPok42
+Modification de la bio github pour votre-username
 ```
 Tout fonctionne donc, votre bio s'actualisera toutes les heures !
