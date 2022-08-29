@@ -14,7 +14,7 @@ Avant de le lancer le programme, n'oubliez pas de faire
 ```Css
 npm i
 ```
-Afin d'installer tous les packtages nécessaire.
+Afin d'installer tous les packages nécessaire.
 
 <hr />
 
