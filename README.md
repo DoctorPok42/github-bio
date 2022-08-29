@@ -2,7 +2,7 @@
 
 ### Bienvenue sur ce répo 👋
 
-Il sert à automatiser votre bio github.
+Il sert à automatiser votre bio github avec la météo de votre emplacement.
 
 Tout d'abord vous devez créer un jeton d'accès personnel, pour permettre à votre application de mettre à jour votre biographie. Cliquez [ICI](https://github.com/settings/tokens/new) pour accéder à la page de création de jeton d'accès personnel. Sélectionnez le champ `user` (Mettre à jour toutes les données utilisateur) et cliquez sur Générer un nouveau jeton. Copiez-le et collez-le dans votre fichier config.json `ligne 2`.
 
