@@ -17,8 +17,16 @@
   },
   "homepage": "https://github.com/DoctorPok42/github-bio#readme",
   "dependencies": {
+    "@types/cron": "^2.0.0",
+    "axios": "^1.3.4",
+    "cron": "^2.2.0",
     "node-cron": "^3.0.0",
     "node-fetch": "^2.6.1",
+    "node-ts-open-weather-map": "^1.2.1",
     "weather-js": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/node-cron": "^3.0.3",
+    "@types/node-fetch": "^2.6.2"
   }
 }

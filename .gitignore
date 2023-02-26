@@ -1,0 +1,11 @@
+# Dossiers
+node_modules/
+dist/
+
+# Fichiers
+*.log
+*.env
+*.DS_Store
+
+# Fichiers de configuration
+tsconfig.json
